@@ -1,0 +1,395 @@
+
+
+.h-conatiner {
+  background-color: green;
+}
+
+div {
+  /*background-color:azure;*/
+}
+
+.F_R {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  padding: 22px;
+}
+
+a.create:hover {
+  text-decoration: none;
+  color: rgba(232, 232, 232, 0.5);
+  transition: 0.7s;
+}
+
+.app {
+  position: absolute;
+}
+
+a.getapp:hover, a.book:hover, a.order:hover, a.gold:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+a.order:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+a.book:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+a.gold:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.navbar {
+  margin-right: 20px;
+  float: right;
+}
+.log  a
+{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 70%;
+    position: absolute;
+    color: white;
+    margin-top: 28px;
+    font-size: 30px;
+}
+.Create a
+{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 80%;
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 1px solid white;
+}
+.log  a:hover
+{
+        background-color:#ff0000;
+}
+.Create  a:hover
+{
+        background-color:#ff0000;
+}
+
+.getapp a
+{
+
+  margin-left: 15px;
+}
+
+.getapp, .book, .order, .gold {
+  color: black;
+  font-weight: 600;
+}
+
+.back img
+{
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+.search-restaurant img
+{
+    margin-left: 630px;
+    margin-top: -30%;
+    margin-bottom: 20%;
+}
+.search-restaurant h2
+{
+    margin-top: -20%;
+    margin-left: 23%;
+    margin-bottom: 20%;
+    position: absolute;
+    color: white;
+    
+}
+.search-restaurant input[type=text]
+{
+    margin-top: -15%;
+    margin-left: -19%;
+    margin-bottom: 20%;
+    position: absolute;
+    color: white;
+    padding: 10px 5px;
+    line-height: 15px;
+    width: 30%;
+}
+.search-restaurant button
+{
+    margin-top: -15%;
+    margin-left: 14%;
+    margin-bottom: 20%;
+    position: absolute;
+    padding: 10px 5px;
+    width: 10%;
+    background-color: #ff050a;
+}
+.search-restaurant #city
+{
+    margin-top: -15%;
+    margin-left: -31%;
+    margin-bottom: 20%;
+    position: absolute;
+    padding: 10px 5px;
+    width: 10%;
+    background-color:white;
+}
+.widget h4
+{
+  float: right;
+  margin-top: -18%;
+  margin-right: 80px;
+  font-size: 20px;
+}
+.widget input[type=text]
+{
+    float: right;
+    padding: 10px 5px;
+    line-height: 15px;
+    margin-top: -15%;
+    margin-right:140px;
+}
+.widget button
+{
+  float: right;
+}
+.detect-btn
+{
+  border-radius: 10px;
+  padding: 9px 12px;
+  background-color: white;
+  color: black;
+  border: 1px gray solid;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: -15%;
+  margin-right:60px;
+}
+.order-btn {
+  border-radius: 11px;
+  background-color: limegreen;
+  border: 1px;
+  padding: 10px 35px;
+  margin-top: -10%;
+  margin-right:120px;
+}
+.order-btn:hover 
+{
+  background-color: darkgreen;
+}
+
+.detect-btn:hover 
+{
+  background-color: gray;
+}
+
+.imgcol img
+{
+  display: inline;
+  width: 100px;
+}
+#loc-subtitle, #cat-subtitle {
+  color: grey;
+}
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(8, 160px);
+  grid-gap: 3px;
+  justify-items: center;
+  text-align: center;
+ 
+}
+.category-list img
+{
+  width: 50%;
+  margin-left: -10%;
+}
+
+.categories
+{
+  border: 1px solid black;
+  background-color:beige;
+  margin-top: 5%;
+}
+#cat-title
+{
+  color:red;
+  border: 1px dashed black;
+  width: fit-content;
+  margin-left: 10px;
+}
+#loc-subtitle, #cat-subtitle {
+  color: grey;
+}
+
+.locality-list
+{
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  justify-content: space-around;
+  grid-template-columns: 180px 180px 180px;
+  border: 1px solid black;
+  background-color:beige;
+}
+#loc-title
+{
+  margin-top: 5%;
+  color: red;
+  border: 1px dashed black;
+  width:fit-content;
+}
+#loc-subtitl
+{
+  color: grey;
+}
+.footer-wrapper
+{
+	background-color: rgb(37, 36, 36);
+	color: white;
+	height: auto;
+	width: 100%;
+}
+.about li
+{
+  list-style-type: none;
+  display:table-row;
+  padding: 5px;
+  font-size: 20px;
+  display: flex;
+  margin-left: 30px;
+  
+		
+}
+.about h4
+{
+	margin-left: 70px;
+	color: white;
+	padding-top: 5%;
+	font-size: 30px;
+}
+.footer-wrapper .foodies li
+{
+	list-style-type: none;
+	padding: 5px;
+	margin-left: 255px;	
+	padding-left: 88px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  margin-left: 32%;
+}
+.foodies h4
+{
+	margin-left: 450px;
+	color: white;
+	font-size: 30px;
+	padding-left: 80px;
+	margin-top: -19%;
+} 
+.footer-wrapper .restaurant li
+{
+	list-style-type: none;
+	padding: 5px;
+	margin-left: 640px;	
+  color: white;
+  display: flex;
+  font-size: 20px;
+ margin-left: 70%;
+}
+
+.restaurant h4
+{
+	margin-left: 920px;
+	color: white;
+	font-size: 30px;
+	margin-top: -21%;
+}
+.footer-wrapper .Countries
+{
+	padding: 5px;
+	margin-left: 500px;	
+	color: white;
+}
+.Countries h4
+{
+  margin-left: -57%;
+	color: white;
+	font-size: 30px;
+}
+.Countries li
+{
+  list-style-type: none;
+	padding: 5px;
+  color: white;
+  display: grid;
+  font-size: 20px;
+ margin-left: -66%;
+}
+@media screen and (max-width: 700px) {
+  ul, li, a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .category-list {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+  }
+
+  .locality-list {
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 700px)
+  {
+    img
+    {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 700px)
+{
+  div.Create
+  {
+    font-size: 20px;
+  }
+  div.log
+  {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:700px) 
+{
+  div.widget
+  {
+    display: none;
+  }
+  div.imgcol
+  {
+    display: none;
+  }
+}
+@media screen  and(max-width:700px)
+{
+  .footer-wrapper
+  {
+    display: flex;
+    flex-direction: column;
+  } 
+}
+}
